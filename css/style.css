@@ -1,6 +1,13 @@
 #home {
     color: white;
     background-color: black;
+    background-image: url("../assets/second.webp");
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
 }
 
 .nav-link {
