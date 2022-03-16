@@ -20,11 +20,8 @@
 
 #title {
     font-family: Abel;
-    font-size: 80px;
+    font-size: 60px;
     padding-top: 150px;
-    padding-left: 400px;
-}
-
-h6 {
-    padding-left: 450px;
+    padding-left: 200px;
+    font-weight: bolder;
 }
