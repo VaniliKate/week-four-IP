@@ -13,6 +13,11 @@
     color: white;
 }
 
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .navbar-brand {
     color: white;
     font-family: Patrick Hand;
