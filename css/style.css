@@ -1,7 +1,7 @@
 #home {
     color: white;
     background-color: black;
-    background-image: url("../assets/second.webp");
+    background-image: url("../assets/fifth.jpg");
     background-size: cover;
     background-color: black;
     background-repeat: no-repeat;
@@ -16,4 +16,8 @@
 
 .navbar-brand {
     color: white;
+}
+
+#title {
+    font-family: Abel;
 }
