@@ -83,3 +83,14 @@ span {
     padding-top: 5rem;
     text-align: center;
 }
+
+.content h3 {
+    font-size: 30px;
+    color: black;
+}
+
+.content p {
+    font-size: 15px;
+    color: black;
+    padding: 1rem 0;
+}
