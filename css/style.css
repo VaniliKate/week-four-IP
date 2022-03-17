@@ -95,10 +95,15 @@ span {
     padding: 1rem 0;
 }
 
+/*
 .box:hover .content {
     top: 0;
-}
+}*/
 
 .row {
     padding-left: 130px;
+}
+
+.btn {
+    background-color: grey;
 }
