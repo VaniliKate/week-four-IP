@@ -62,7 +62,8 @@ span {
 }
 
 .box {
-    height: 25rem;
+    height: 300px;
+    width: 300px;
     border: 1rem solid #fff;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     border-radius: .5rem;
@@ -72,7 +73,7 @@ span {
 
 
 .menu .box-container .box img {
-    height: 50%;
+    height: 100%;
     width: 100%;
 }
 
@@ -86,6 +87,7 @@ span {
     padding: 2rem;
     padding-top: 5rem;
     text-align: center;
+    display: none;
 }
 
 .content h3 {
