@@ -113,8 +113,9 @@ span {
 }
 
 .btn {
-    background-color: grey;
-    width: 100px;
+    background-color: brown;
+    width: 150px;
+
 }
 
 #how {
@@ -123,7 +124,7 @@ span {
 
 #order {
     color: white;
-    background-color: black;
+    background-color: goldenrod;
 }
 
 .formContainer {
@@ -136,4 +137,9 @@ span {
     padding: 0px 0px 5px 15px;
     box-sizing: border-box;
     border-radius: 8px;
+    padding: 30px;
+}
+
+.form-check {
+    padding-bottom: 30px;
 }
