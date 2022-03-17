@@ -28,7 +28,7 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#menu">MENU</a>
                                 </li>
-                                <a class="navbar-brand" href="#">PIZZA<span>HIGH</span></a>
+                                <a class="navbar-brand animated flip" href="#">PIZZA<span>HIGH</span></a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                                     aria-label="Toggle navigation">
@@ -111,36 +111,37 @@
             -->
         </section>
         <section id="how">
+            <h3>USING OUR PLATFORM</h3>
             <div class="row">
                 <div class="col-3">
-                    <div class="how">
-                        <img src="./assets/pizza clip.webp" alt="#" style="height:100px;width:100px">
+                    <div class="how animated flip">
+                        <img src="./assets/pizza clip.webp" alt="#" style="height:150px;width:150px">
                         <p>Choose your favourite pizza</p>
                     </div>
                 </div>
                 <div class="col-3">
-                    <div class="how">
-                        <img src="./assets/pay.webp" alt="#" style="height:100px;width:100px">>
+                    <div class="how animated flip">
+                        <img src="./assets/pay.webp" alt="#" style="height:150px;width:150px">>
                         <p>Easy payment methods</p>
                     </div>
                 </div>
                 <div class="col-3">
-                    <div class="how">
-                        <img src="./assets/delivery.webp" alt="#" style="height:100px;width:100px">>
+                    <div class="how animated flip">
+                        <img src="./assets/delivery.webp" alt="#" style="height:150px;width:150px">>
                         <p>Fast delivery after purchase</p>
                     </div>
                 </div>
                 <div class="col-3">
-                    <div class="how">
-                        <img src="./assets/eating.webp" alt="#" style="height:100px;width:100px">>
+                    <div class="how animated flip">
+                        <img src="./assets/eating.webp" alt="#" style="height:150px;width:150px">>
                         <p>Enjoy your meal</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="order" class="formContainer">
-            <div class="row">
-                <h3><span>ORDER WITH US</span></h3>
+        <section id="order">
+            <h3>ORDER WITH US</h3>
+            <div class="row formContainer">
                 <div class="col-md-9">
                     <h3>Pizza size:</h3>
                     <select class="form-select" aria-label="Default select example">
@@ -156,13 +157,6 @@
                         <option value="3">Stuffed crust @ Kshs 180</option>
                         <option value="3">Pan-tossed crust @ Kshs 180</option>
                         <option value="3">Crispy crust @ Kshs 180</option>
-                    </select><br>
-                    <h3>Select number of pizza you would like:</h3>
-                    <select class="form-select" aria-label="Default select example">
-                        <option value="1">Extra large</option>
-                        <option value="2">Large</option>
-                        <option value="3">Medium</option>
-                        <option value="3">Regular</option>
                     </select><br>
                     <h3>Pizza toppings:</h3>
                     <div class="form-check form-check-inline">
@@ -185,11 +179,33 @@
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
                         <label class="form-check-label" for="inlineCheckbox3">Extra cheese</label>
                     </div>
+                    <label for="number">Number of Pizza's</label>
+                    <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1"
+                        required>
+
                 </div><br>
                 <button type="button" class="btn">Place Order</button>
             </div>
-
         </section>
+        <footer id="footer">
+            <div class="container-fluid">
+                <h3>CONTACT US</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Location</h4><br>
+                        <h4>PizzaHigh</h4>
+                        <h4>Maasai Mall | Ongata Rongai</h4>
+                        <h4>00453,Rongai</h4>
+                    </div>
+                    <div class="col-md-6">
+
+                    </div>
+                    <div class="col-md-6">
+
+                    </div>
+                </div>
+            </div>
+        </footer>
 
     </div>
 
