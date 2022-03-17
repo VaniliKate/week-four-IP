@@ -43,3 +43,10 @@ h5 {
 span {
     color: brown;
 }
+
+#about img {
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-right: 50px;
+
+}
