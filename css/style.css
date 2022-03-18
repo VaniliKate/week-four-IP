@@ -30,6 +30,7 @@ header {}
 .nav-item {
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 20px;
 }
 
 .navbar-brand {
@@ -56,22 +57,15 @@ h5 {
 
 h1 {
     padding-left: 350px;
-    color: brown;
 }
 
 span {
     color: brown;
 }
 
-#about img {
-    padding-top: 50px;
-    padding-left: 90px;
-    padding-right: 50px;
-
-}
-
 #menu {
     padding-bottom: 100px;
+    padding-top: 80px;
 }
 
 .menu .box-container {
@@ -155,7 +149,7 @@ span {
 }
 
 #order {
-    background-image: url("../assets/fifth.jpg");
+    background-image: url("../assets/three.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -201,4 +195,8 @@ span {
 
 .card-padding {
     margin-bottom: 20px;
+}
+
+#list {
+    display: none;
 }

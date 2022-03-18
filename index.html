@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Abel&family=Gloria+Hallelujah&family=Inspiration&family=Patrick+Hand&family=Shadows+Into+Light&display=swap"
         rel="stylesheet">
@@ -60,18 +61,16 @@
             <h1>Our Specialities</h1>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card card-padding" style="width: 18rem; height:20rem;">
+                    <div class="card card-padding" data-aos="fade-up" style="width: 18rem; height:20rem;">
                         <img src="./assets/chicken mushroom.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
+                            <p class="card-text">Chicken mushroom pizza</p>
                         </div>
                     </div>
-                    <div class="card" style="width: 18rem; height:20rem;">
-                        <img src="./assets/chicken tikka.jpeg" class="card-img-top" alt="...">
+                    <div class="card" data-aos="fade-up" style="width: 18rem; height:20rem;">
+                        <img src="./assets/chicken tikka1.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
+                            <p class="card-text">Chicken tikka</p>
                         </div>
                     </div>
                 </div>
@@ -79,15 +78,13 @@
                     <div class="card card-padding" style="width: 18rem; height:20rem;">
                         <img src="./assets/hawaiian.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
+                            <p class="card-text">Hawaiian</p>
                         </div>
                     </div>
                     <div class="card" style="width: 18rem; height:20rem;">
                         <img src="./assets/peri peri chicken.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
+                            <p class="card-text">Peri peri chicken</p>
                         </div>
                     </div>
                 </div>
@@ -95,15 +92,13 @@
                     <div class="card card-padding" style="width: 18rem; height:20rem;">
                         <img src="./assets/regina.jpeg" class="d-block w-100" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
+                            <p class="card-text">Regina pizza</p>
                         </div>
                     </div>
                     <div class="card" style="width: 18rem; height:20rem;">
                         <img src="./assets/veg tikka.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
+                            <p class="card-text">Veg tikka pizza</p>
                         </div>
                     </div>
                 </div>
@@ -199,43 +194,48 @@
 
     <div class="container">
         <section id="order">
-            <h1>ORDER WITH US</h1>
+            <h1 style="color:white">ORDER WITH US</h1>
             <div class="row formContainer">
                 <div class="col-md-9">
                     <h3>Pizza size:</h3>
-                    <select class="form-select" aria-label="Default select example">
-                        <option value="1">Extra large</option>
-                        <option value="2">Large</option>
-                        <option value="3">Medium</option>
-                        <option value="3">Regular</option>
+                    <select class="form-select" id="size" aria-label="Default select example">
+                        <option value="1400">Extra large</option>
+                        <option value="1200">Large</option>
+                        <option value="1000">Medium</option>
+                        <option value="850">Regular</option>
                     </select>
                     <h3>Pizza crust:</h3>
-                    <select class="form-select" aria-label="Default select example">
-                        <option value="1">Thin crust @ Kshs 100</option>
-                        <option value="2">Gluten-free crust @ Kshs 150</option>
-                        <option value="3">Stuffed crust @ Kshs 180</option>
-                        <option value="3">Pan-tossed crust @ Kshs 180</option>
-                        <option value="3">Crispy crust @ Kshs 180</option>
+                    <select class="form-select" id="crust" aria-label="Default select example">
+                        <option value="100">Thin crust @ Kshs 100</option>
+                        <option value="150">Gluten-free crust @ Kshs 150</option>
+                        <option value="180">Stuffed crust @ Kshs 180</option>
+                        <option value="180">Pan-tossed crust @ Kshs 180</option>
+                        <option value="180">Crispy crust @ Kshs 180</option>
                     </select><br>
                     <h3>Pizza toppings:</h3>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="toppings"
+                            value="150">
                         <label class="form-check-label" for="inlineCheckbox1">Pepperoni</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" name="toppings"
+                            value="100">
                         <label class="form-check-label" for="inlineCheckbox2">Sausage</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" name="toppings"
+                            value="200">
                         <label class="form-check-label" for="inlineCheckbox3">Mushrooms</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" name="toppings"
+                            value="220">
                         <label class="form-check-label" for="inlineCheckbox3">Chicken</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" name="toppings"
+                            value="200">
                         <label class="form-check-label" for="inlineCheckbox3">Extra cheese</label>
                     </div>
                     <label for="number">Number of Pizza's</label>
@@ -243,7 +243,11 @@
                         required>
 
                 </div><br>
-                <button type="button" class="btn">Place Order</button>
+                <button type="button" class="btn" id="btn">Place Order</button>
+
+                <div id="list">
+                    <h3>Your order is as follows:</h3>
+                </div>
             </div>
         </section>
     </div>
@@ -252,9 +256,16 @@
 
     </div>
 
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js"
+        integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
