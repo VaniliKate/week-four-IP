@@ -43,6 +43,10 @@ Make sure you have a browser with javascript enabled.
 -   Input location details.
 -   Proceed to checkout.
 
+
+Live site link:
+vanilikate.github.io/week-four-ip/
+
 ![alt text](assets/home.png)
 
 ![alt text](assets/order.png)
