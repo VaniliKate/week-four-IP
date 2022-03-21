@@ -1,4 +1,4 @@
-# About This Pizza Ordering site
+# Pizza High Pizza Place
 
 This project is based on [Javascript CSS HTML](#TechStack).
 
