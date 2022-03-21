@@ -1,4 +1,4 @@
-# Pizza High Pizza Place
+# About This Pizza Ordering site
 
 This project is based on [Javascript CSS HTML](#TechStack).
 
@@ -43,8 +43,12 @@ Make sure you have a browser with javascript enabled.
 -   Input location details.
 -   Proceed to checkout.
 
-https://vanilikate.github.io/week-four-IP/
+![alt text](assets/home.png)
 
-![alt text](images/home.jpg)
+![alt text](assets/order.png)
 
-![alt text](images/output.jpg)
+![alt text](assets/delivery.png)
+
+![alt text](assets/delivery1.png)
+
+![alt text](assets/output.png)
