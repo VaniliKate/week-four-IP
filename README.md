@@ -45,7 +45,7 @@ Make sure you have a browser with javascript enabled.
 
 
 Live site link:
-vanilikate.github.io/week-four-ip/
+https://vanilikate.github.io/week-four-IP/
 
 ![alt text](assets/home.png)
 
